@@ -1,10 +1,20 @@
-# Curso_TypeScript
+# Curso TypeScript
 
-<h2>Comandos ultilizados no Terminal: </h2>
-    <ul>
-        1 - Vai para pegar o packge.json
-        npm init -y
+## Comandos Utilizados no Terminal
 
-        2 - Vai instalar o TypeScript
-        npm install typescript -D
-    </ul>
+1. **Inicializar o projeto com `package.json`:**
+    ```bash
+    npm init -y
+    ```
+
+2. **Instalar o TypeScript como dependência de desenvolvimento:**
+    ```bash
+    npm install typescript -D
+    ```
+
+3. **Instalar e configurar ESLint, Prettier e plugins relacionados:**
+    ```bash
+    npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier pre-commit prettier
+    ```
+
+> **Nota:** Certifique-se de configurar os arquivos de configuração do TypeScript (`tsconfig.json`), ESLint (`.eslintrc.json` ou equivalente) e Prettier (`.prettierrc`) para garantir que o ambiente esteja devidamente ajustado para o desenvolvimento com TypeScript.
